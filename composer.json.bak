@@ -1,0 +1,14 @@
+{
+    "name": "package\_name",
+    "description": "package\_description",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "x4748",
+            "email": "hamedgasemi200@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
