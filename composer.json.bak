@@ -9,6 +9,11 @@
             "email": "hamedgasemi200@gmail.com"
         }
     ],
+	"autoload": {
+    "psr-4": {
+      "YourApp": "src/"
+    }
+  },
     "minimum-stability": "dev",
     "require": {}
 }
