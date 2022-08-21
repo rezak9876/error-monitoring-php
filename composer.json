@@ -1,11 +1,15 @@
 {
-    "name": "bin-ism/error-monitoring-php",
-    "description": "A hello world composer private package.",
-    "autoload": {
-        "psr-4": {
-            "YourGithubUserName\\HelloWorldPackage\\": "src/"
+    "name": "bin-ism/hello-world",
+    "description": "this is a hello world repo for composer.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Binism Tan",
+            "email": "rivsen1003@gmail.com"
         }
+    ],
+    "autoload": {
+        "psr-4": { "Binism\\Demo\\": "src" }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "require": {}
 }
