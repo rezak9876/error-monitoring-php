@@ -9,7 +9,7 @@
         }
     ],
     "autoload": {
-        "psr-4": { "Binism\\Demo\\": "src" }
+        "psr-4": { "Binism\\ErrorMonitoring\\": "src" }
     },
     "require": {}
 }
