@@ -5,7 +5,7 @@ This is a hello world package for php composer beginners tutorial.
 ## Usage ##
 
 ```bash
-$ composer require rivsen/hello-world dev-master
+$ composer require rivsen/error-monitoring dev-master
 $ touch test.php
 ```
 
