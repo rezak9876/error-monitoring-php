@@ -1,24 +1,20 @@
-# Hello World Package for PHP Composer #
+## Monitoring all errors
 
-This is a hello world package for php composer beginners tutorial.
 
-## Usage ##
 
-```bash
-$ composer require rivsen/error-monitoring dev-master
-$ touch test.php
-```
+### Installation
+`composer require bin-ism/error-monitoring:dev-master`
 
-```php
+### Usage
+```php 
 <?php
 require_once "vendor/autoload.php";
 
-$hello = new Rivsen\Demo\Hello();
-echo $hello->hello();
+Binism\ErrorMonitoring\Monitor::init('a2918bf3b6d6867d96385add0a8cc5042f35a4e6');
+
+
+echo $rrrr;
 ```
 
-```bash
-$ php test.php
-```
-
-It will print "Hello World!" then exit.
+### Author
+Reza Karimi
