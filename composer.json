@@ -1,15 +1,15 @@
 {
-    "name": "bin-ism/error-monitoring",
-    "description": "this is a hello world repo for composer.",
+    "name": "rezak/error-monitoring-php",
+    "description": "error monitoring for php applications.",
     "license": "MIT",
     "authors": [
         {
-            "name": "Binism Tan",
-            "email": "rivsen1003@gmail.com"
+            "name": "RezaK",
+            "email": "rezak9876.official@gmail.com"
         }
     ],
     "autoload": {
-        "psr-4": { "Binism\\ErrorMonitoring\\": "src" }
+        "psr-4": { "RezaK\\ErrorMonitoringPHP\\": "src" }
     },
     "require": {}
 }
